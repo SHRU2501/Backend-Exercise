@@ -4,7 +4,7 @@ A Python CLI tool to fetch and filter research papers from **PubMed** and **Sema
 
 
 
-<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/c815e16e-94a0-4b60-ade7-ddf6f7698d1a" />
+<img width="1000" height="800" alt="Screenshot 2025-08-01 224920" src="https://github.com/user-attachments/assets/fedc360c-e1c7-4fa1-a97e-4da63e64eb15" />
 
 
 ##  Features
@@ -72,4 +72,5 @@ Acknowledgments
 PubMed API
 
 Semantic Scholar API
+
 
