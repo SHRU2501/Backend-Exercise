@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "papers-cli"
+version = "0.1.0"
+description = "CLI tool for fetching and filtering PubMed papers by company affiliation"
+authors = ["Shruti A. Wadettiwar <shrutiashokwadettiwar@mail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/SHRU2501/papers-cli"
+repository = "https://github.com/SHRU2501/papers-cli"
+keywords = ["CLI", "PubMed", "Semantic Scholar", "papers", "Python", "API"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31"
+pandas = "^2.1.0"
+typer = "^0.9.0"
+tqdm = "^4.66.4"
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.2"
+black = "^24.3.0"
+isort = "^5.13.2"
+
+[tool.poetry.scripts]
+get-papers-list = "papers.cli:get_papers_list"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
